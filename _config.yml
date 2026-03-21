@@ -1,66 +1,26 @@
-# Site Settings
-title:       Theory of ship
-description:  "ok"
-url:          https://harii83.github.io
-
-# Build Settings
-remote_theme: harii83/hyde
-
-# Hyde Settings
-color_theme:  theme-base-08   # remove this line for default theme
-reverse_layout: false          # true = sidebar on right
-
-# Pagination (optional)
-paginate: 5
-author:
-  name:           'Hari '
-  url:            
-
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown: redcarpet
+highlighter: pygments
 
+# Permalinks
+permalink: pretty
+relative_permalinks: true
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "home"  ]\\\\\\
+# Setup
+title: Hyde
+tagline: "A Jekyll theme"
+description: 'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url: http://hyde.getpoole.com
+baseurl: /
 
+author:
+  name: "Mark Otto"
+  url: https://twitter.com/mdo
 
+paginate: 5
 
+# Custom vars
+version: 2.1.0
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+github:
+  repo: https://github.com/poole/hyde
