@@ -1,0 +1,66 @@
+# Site Settings
+title:       Theory of ship
+description:  "ok"
+url:          https://harii83.github.io
+
+# Build Settings
+remote_theme: harii83/hyde
+
+# Hyde Settings
+color_theme:  theme-base-08   # remove this line for default theme
+reverse_layout: false          # true = sidebar on right
+
+# Pagination (optional)
+paginate: 5
+author:
+  name:           'Hari '
+  url:            
+
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "home"  ]\\\\\\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
